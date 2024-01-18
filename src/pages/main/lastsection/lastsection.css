@@ -1,0 +1,53 @@
+.custom-input{
+    padding: 13px 17px;
+    border: none;
+}
+.custom-input-text{
+    padding: 13px 37px;
+    border: none;
+    margin: 10px 4px;
+}
+.custom-input-email{
+    padding: 13px 37px;
+    border: none;
+    margin: 10px 4px;
+}
+.footer{
+    padding: 31px 35px;
+}
+.input-group{
+    margin-top: 17px
+}
+.logo-text-container{
+    display: flex;
+}
+.text{
+    margin: 2px 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .custom-input-text{
+        width: 385px;
+        padding: 18px 20px;
+        /* margin: 8px; */
+    }
+    .custom-input-email{
+        width: 385px;
+        padding: 18px 20px;
+        /* margin: 8px ; */
+    }
+    }
+
+    @media only screen and (max-width: 556px) {
+        .custom-input-text{
+            width: 385px;
+            padding: 18px 20px;
+            margin: 8px 0px;
+           
+        }
+        .custom-input-email{
+            width: 385px;
+            padding: 18px 20px;
+            margin: 8px 0px ;
+        }
+        }

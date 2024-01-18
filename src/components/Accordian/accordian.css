@@ -1,0 +1,13 @@
+.custom-header .accordion-button::after { 
+    display: none;
+  }
+  
+  .custom-header img { 
+  display: flex;
+  justify-content: end;
+  }
+
+.custom-header{
+  --bs-accordion-active-bg: transparent !important;
+ 
+}

@@ -1,0 +1,15 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   .latest-project{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+   }
+    }
+
+    @media only screen and (max-width: 767px) {
+        .latest-project{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 22px;
+           }
+    }

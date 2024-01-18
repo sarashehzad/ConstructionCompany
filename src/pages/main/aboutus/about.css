@@ -1,0 +1,10 @@
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+   .about-sec{
+    text-align: center;
+   }
+     }
+@media only screen and (max-width: 767px) {
+    .about-sec{
+        text-align: center;
+       }
+}

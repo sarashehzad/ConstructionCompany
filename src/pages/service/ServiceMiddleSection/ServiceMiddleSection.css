@@ -1,0 +1,14 @@
+
+.middle-sec-custom-p{
+    background-color: #2A2A2A;
+    color: white;
+    padding: 51px 27px ;
+    height: auto;
+}
+@media only screen and (max-width: 756px) {
+.middle-sec-custom-p{
+    padding: 97px 41px;
+}
+}
+
+/* style={{backgroundColor:'#2A2A2A', color:'white' , padding: '51px 27px', height:'606px'}} */

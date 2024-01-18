@@ -1,0 +1,78 @@
+.text-overlay{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+}
+.vector{
+    border-left: 10px solid  #FFB400;
+    margin: 12px 0px;
+    padding: 10px;
+}
+.construction-img {
+    width: 100%;
+}
+.yellow-box{
+    background-color: #FFB400;
+    padding: 17px 5px;
+}
+.fluid-container{
+   max-width: 1400px;
+}
+.lower-section{
+  display:flex;
+  justify-content: space-around;
+margin: 28px 0px;
+}
+.hero-customMargin{
+margin: 43px 0px;
+}
+@media only screen and (min-width: 992px) {
+
+    .yellow-box{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .yellow-box{
+        display: flex;
+        justify-content: center;
+    }
+    
+  }
+  @media only screen and (max-width: 767px) {
+   .text-overlay{
+    font-size: 11px;
+    top: 31%;
+   }
+   .yellow-box{
+    display: flex;
+    justify-content: center;
+}
+.lower-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+  }
+  @media only screen and (max-width: 556px) {
+    .text-overlay {
+        font-size: 10px;
+        top: 25%;
+    }
+    .hero-customMargin{
+        margin: 7px 0px;
+        }
+        .lower-section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+  }

@@ -1,0 +1,146 @@
+
+.content-overlay-1 {
+    color: white;
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    padding: 0px 26px;
+    font-size: 19px;
+}
+.logo-image{
+    width: 40px;
+}
+
+.text-overlay-service-1{
+    color: white;
+    position: absolute;
+    top: 29%;
+    left: 8%;
+    font-weight: 800;
+}
+.heading-services-main{
+font-weight: bold;
+     color: #ffb400;
+    padding: 0px 23px;
+}
+
+@media only screen and (max-width: 992px) {
+
+ .content-overlay-1 {
+    top: 9%;
+    left: 53%;
+    padding: 0px 0px;
+    font-size: 11px;
+}
+.text-overlay-service-1{
+  
+    top: 11%;
+    left: 6%;
+   
+}
+.p-hero-1{
+    margin: 35px 0px;
+    width: 47%;
+ }
+ }
+
+ @media only screen and (max-width: 768px) {
+
+    .content-overlay-1 {
+        top: 11%;
+        left: 53%;
+        padding: 0px 0px;
+        font-size: 9px;
+   }
+   .text-overlay-service-1 {
+    top: 12%;
+    left: 6%;
+    font-size: 14px;
+}
+   .p-hero-1 {
+    margin: 8px 0px;
+    width: 52%;
+    font-size: 11px;
+}
+.yellow-box1{
+    margin-top: 4px;
+}
+.services-custom-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    }
+
+
+@media only screen and (max-width: 576px) {
+
+        .content-overlay-1 {
+            top: 11%;
+            left: 49%;
+            padding: 0px 0px;
+            font-size: 5px;
+            width: 52%;
+       }
+       .text-overlay-service-1 {
+        top: 10%;
+        left: 4%;
+        font-size: 6px;
+    }
+       .p-hero-1 {
+        width: 43%;
+        font-size: 9px;
+    }
+    .logo-image{
+        width: 35px;
+    }
+    .yellow-box1 {
+        margin-top: 1px;
+    }
+    .vector{
+        font-size: 14px;
+    }
+    .heading-services-main{
+    font-size: 16px;
+        }
+        .content{
+            font-size: 7px;
+            padding: 0px 14px;
+            margin: 3px;
+        }
+    .paragrapgh-content{
+margin: 0px;
+        }
+        .services-custom-button{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        }
+
+  /* @media only screen and (max-width: 767px) {
+    .text-overlay-2{
+        font-size: 13px;
+     margin-top: -55px;
+       }
+       .block-2 {
+        padding: 0px 10px;
+    }
+}
+
+  
+  @media only screen and (max-width: 586px) {
+    .text-overlay-2 {
+        position: absolute;
+        top: 20%;
+        left: 5%;
+    }
+  } 
+  @media only screen and (max-width: 452px) {
+    .text-overlay-2 {
+        position: absolute;
+        top: 12%;
+        left: 5%;
+        font-size: 8px;
+    }
+  }  */

@@ -1,0 +1,29 @@
+.content-overlay-home{
+    
+        color: white;
+        position: absolute;
+        top: 285%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        font-weight: 800;
+       
+    
+}
+/* @media only screen and (max-width: 992px) {
+.content-overlay-home{
+        top: 310%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 11px;
+   }
+}
+ @media only screen and (max-width: 768px) {
+   .content-overlay-home{
+        top: 304%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    font-size: 11px;
+   }
+}  */

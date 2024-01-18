@@ -1,0 +1,11 @@
+.yellow-box1{
+    display: flex;
+    margin-top: 21px;
+    margin-left: 19px;
+} 
+.logo{
+    margin-right: 16px;
+}
+.content{
+    padding: 1px 10px;
+}

@@ -1,0 +1,9 @@
+.white-button {
+    background-color: white;
+    border: 5px solid #FFB400;
+    padding: 10px 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFB400;
+  }
+  
