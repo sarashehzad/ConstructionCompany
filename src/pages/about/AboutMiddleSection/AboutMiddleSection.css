@@ -1,3 +1,24 @@
-.tower-img{
-   width: 100%;
+.tower-img {
+  width: 100%;
+}
+.aboutMiddleSectionContent {
+  margin-top: 97px;
+}
+.aboutMiddleSectionContentHeading {
+  font-weight: bold;
+  margin: 1px 10px;
+  padding: 17px 11px;
+}
+.aboutMiddleSectionContentBox {
+  padding: 17px 8px;
+}
+.aboutMiddleSectionContentButton {
+  margin-top: 40px;
+  justify-content: end;
+  margin-right: 30px;
+  display: flex;
+}
+.aboutSectionBoxes {
+  margin: 8px 0px;
+  text-align: center;
 }

@@ -1,49 +1,63 @@
-.black-bg-1{
-    background-color: #2A2A2A;
-    color: white;
-    padding: 21px;
-    text-align: center;
+.black-bg-1 {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 21px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
 }
-.home-custom-paragraph-1{
-    margin-top: 100px;
+.home-custom-paragraph-1 {
+  margin-top: 100px;
 }
-.home-custom-middle-section{
-    margin-top: 60px;
+.home-custom-middle-section {
+  margin-top: 60px;
 }
-.home-custom-paragraph{
-    margin: 88px 0px;
-
+.home-custom-paragraph {
+  margin: 88px 0px;
+}
+.homeMiddleSection {
+  margin-top: 40px;
+  background-color: #ffb400;
+}
+.homeMiddleSectionHeading {
+  padding: 17px 11px;
+  margin: 1px 10px;
+  font-weight: bold;
+}
+.homeMiddleSectionContentBox {
+  padding: 0px 3px;
+}
+.project-p {
+  margin: 13px;
 }
 
 @media only screen and (max-width: 992px) {
-
-    .home-middle-sec-custom-p{
-        padding: 12px;
-    }
-    .content {
-        padding: 4px 14px;    
-    }
-   .home-custom-paragraph-1{
-        margin-top: 0px;
-    } 
-    .project-p{
-        padding: 20px;
-    }
+  .home-middle-sec-custom-p {
+    padding: 12px;
+  }
+  .content {
+    padding: 4px 14px;
+  }
+  .home-custom-paragraph-1 {
+    margin-top: 0px;
+  }
+  .project-p {
+    padding: 20px;
+  }
 }
 @media only screen and (max-width: 768px) {
-      .home-custom-paragraph-1{
-        margin-top: 0px;
-    }
+  .home-custom-paragraph-1 {
+    margin-top: 0px;
+  }
 }
 @media only screen and (max-width: 543px) {
-    .home-custom-paragraph-1{
-        margin-top: 0px;
-    }
-    .home-custom-middle-section{
-        margin-top: 0px;
-    }
-    .home-custom-paragraph{
-        margin: 32px 0px;
-    } 
-    
+  .home-custom-paragraph-1 {
+    margin-top: 0px;
+  }
+  .home-custom-middle-section {
+    margin-top: 0px;
+  }
+  .home-custom-paragraph {
+    margin: 32px 0px;
+  }
 }

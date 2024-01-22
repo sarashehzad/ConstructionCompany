@@ -15,8 +15,10 @@ function PortfolioMain() {
    <Col lg={12}>
  <div className="portfolio-img">
   <div className="main-section-portfolio">
-    <h1 style={{color:'white', fontWeight:'800'}} className="vectorr">Our Construction <br/> Projects</h1>
-    <p style={{color:'white', marginTop:'30px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis <br/> egestas pellentesque libero dolor in diam consequat ut. </p>
+    <h1 className="vectorr">Our Construction <br/> Projects</h1>
+    <p className="custom-paragrapgh-margin"
+    // style={{color:'white', marginTop:'30px'}}
+    >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis <br/> egestas pellentesque libero dolor in diam consequat ut. </p>
   </div>
 </div>
 

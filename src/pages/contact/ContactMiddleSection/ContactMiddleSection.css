@@ -1,16 +1,26 @@
-.map-img{
-    width: 100%;
+.map-img {
+  width: 100%;
 }
+.contact-footer {
+  margin: 34px 2px;
+}
+.contactSectionBtn {
+  justify-content: end;
+  margin-right: 110px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
 @media only screen and (min-width: 992px) {
-    .map-section{
-      margin-top: 20px;
-    }
+  .map-section {
+    margin-top: 20px;
+  }
 }
 @media only screen and (max-width: 556px) {
-.contact-footer{
-  display: flex;
+  .contact-footer {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+  }
 }

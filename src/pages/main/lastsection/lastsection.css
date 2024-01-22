@@ -1,53 +1,74 @@
-.custom-input{
-    padding: 13px 17px;
-    border: none;
+.custom-input {
+  padding: 13px 17px;
+  border: none;
 }
-.custom-input-text{
-    padding: 13px 37px;
-    border: none;
-    margin: 10px 4px;
+.custom-input-text {
+  padding: 13px 37px;
+  border: none;
+  margin: 10px 4px;
 }
-.custom-input-email{
-    padding: 13px 37px;
-    border: none;
-    margin: 10px 4px;
+.custom-input-email {
+  padding: 13px 37px;
+  border: none;
+  margin: 10px 4px;
 }
-.footer{
-    padding: 31px 35px;
+.footer {
+  padding: 31px 35px;
 }
-.input-group{
-    margin-top: 17px
+.input-group {
+  margin-top: 17px;
 }
-.logo-text-container{
-    display: flex;
+.logo-text-container {
+  display: flex;
 }
-.text{
-    margin: 2px 10px;
+.text {
+  margin: 2px 10px;
 }
-
+.last-section-bg {
+  background-color: #ffb400;
+}
+.last-section-bg-2 {
+  background-color: #2a2a2a;
+}
+.social-icons-sec {
+  justify-content: center;
+  height: 114px;
+  display: flex;
+}
+.social-icons {
+  width: 41%;
+}
+.logoWithText {
+  padding: 62px 71px;
+}
+.footer-btn {
+  justify-content: end;
+  margin-right: 79px;
+  display: flex;
+  margin-bottom: 30px;
+}
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-    .custom-input-text{
-        width: 385px;
-        padding: 18px 20px;
-        /* margin: 8px; */
-    }
-    .custom-input-email{
-        width: 385px;
-        padding: 18px 20px;
-        /* margin: 8px ; */
-    }
-    }
+  .custom-input-text {
+    width: 385px;
+    padding: 18px 20px;
+    /* margin: 8px; */
+  }
+  .custom-input-email {
+    width: 385px;
+    padding: 18px 20px;
+    /* margin: 8px ; */
+  }
+}
 
-    @media only screen and (max-width: 556px) {
-        .custom-input-text{
-            width: 385px;
-            padding: 18px 20px;
-            margin: 8px 0px;
-           
-        }
-        .custom-input-email{
-            width: 385px;
-            padding: 18px 20px;
-            margin: 8px 0px ;
-        }
-        }
+@media only screen and (max-width: 556px) {
+  .custom-input-text {
+    width: 385px;
+    padding: 18px 20px;
+    margin: 8px 0px;
+  }
+  .custom-input-email {
+    width: 385px;
+    padding: 18px 20px;
+    margin: 8px 0px;
+  }
+}

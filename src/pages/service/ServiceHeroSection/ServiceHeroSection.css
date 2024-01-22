@@ -16,37 +16,45 @@
   margin: 43px 0px;
   width: 64%;
 } */
-.service-img{
-    background-image: url('../../../assets/images/con.svg');
+.service-img {
+  background-image: url("../../../assets/images/con.svg");
 
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%;
-      height: 569px;
-      justify-content: center;
-      display: flex;
-      align-items: center;
-  
-  }
-  .service-main-section-text{
-    color: white;
-    margin-bottom: 75px;
-    width: 46%;
-    margin-left: 71px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 569px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.service-main-section-text {
+  color: white;
+  margin-bottom: 75px;
+  width: 46%;
+  margin-left: 71px;
+}
+.service-box {
+  color: white;
+  width: 37%;
+}
+.vectorr {
+  border-left: 10px solid #ffb400;
+  margin: 12px 0px;
+  padding: 10px;
+  font-weight: bold;
+}
+.service-paragrapgh-section {
+  justify-content: center;
+  margin-top: 70px;
+  color: #666666;
+  margin-bottom: 56px;
+}
+.service-p {
+  padding-right: 34px;
+}
 
-
-  }
-  .service-box{
-    color: white;
-    width: 37%;
-  }
-  .vectorr{
-    border-left: 10px solid #FFB400;
-    margin: 12px 0px;
-    padding: 10px;
-  }
 @media only screen and (max-width: 992px) {
-    /* .text-overlay-service{
+  /* .text-overlay-service{
         color: white;
         position: absolute;
         top: 38%;
@@ -55,8 +63,8 @@
         font-weight: 800;
         padding-right: 72px;
     } */
-    
-/* .content-overlay {
+
+  /* .content-overlay {
 
     top: 13%;
     left: 46%;
@@ -70,10 +78,9 @@
 .hero-custom-p{
     padding: 40px;
 } */
-    
-  }
-   @media only screen and (max-width: 768px) {
-    /* .text-overlay-service{
+}
+@media only screen and (max-width: 768px) {
+  /* .text-overlay-service{
         top: 29%;
         left: 45%;
         transform: translate(-50%, -50%);
@@ -92,93 +99,76 @@
 .p-hero-1 {
     margin: 20px 0px;
 } */
-.logo-image{
+  .logo-image {
     width: 42px;
-}
+  }
 
-.service-img{
-   
-        flex-direction: column;
-        height: 755px;
-        justify-content: center;
-        align-items: center;
-    
-}
-.service-main-section-text{
+  .service-img {
+    flex-direction: column;
+    height: 755px;
+    justify-content: center;
+    align-items: center;
+  }
+  .service-main-section-text {
     width: 72%;
-}
+  }
 
-.service-box {
+  .service-box {
     color: white;
     width: 67%;
-}
-.content {
+  }
+  .content {
     padding: 2px 19px;
+  }
 }
-   }
-   
 
+@media only screen and (max-width: 637px) {
+  .text-overlay-service {
+    /* top: 29%; */
+    top: 24%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-weight: 800;
+    /* padding-right: 77px; */
+    padding-right: 23px;
+    font-size: 10px;
+  }
 
-
-
-  @media only screen and (max-width: 637px) {
-    .text-overlay-service{
-        /* top: 29%; */
-        top: 24%;
-        left: 35%;
-        transform: translate(-50%, -50%);
-        font-weight: 800;
-        /* padding-right: 77px; */
-        padding-right: 23px;
-        font-size: 10px;
-    }
-    
-.content-overlay {
-
+  .content-overlay {
     top: 9%;
     left: 48%;
     padding: 0px 14px;
     font-size: 9px;
-}
   }
+}
 
-  @media only screen and (max-width: 604px) {
-   
-.content-overlay {
-
+@media only screen and (max-width: 604px) {
+  .content-overlay {
     top: 16%;
     left: 44%;
     padding: 0px 8px;
     font-size: 7px;
-
-}
-.p-hero-1 {
+  }
+  .p-hero-1 {
     margin: 18px 0px;
+  }
 }
-  }
- 
+
 @media only screen and (max-width: 543px) {
-   
-
-    .vector {
-        padding: 0px 17px;
-        font-size: 30px;
-    }
-    .service-main-section-text {
-        width: 85%;
-    }
-    .logo-image{
-        width: 42px;
-    }
-    .service-box{
-        width: 91%;
-    }
-    .content {
-
-        padding: 0px 19px;
-    }
-    
-    
+  .vector {
+    padding: 0px 17px;
+    font-size: 30px;
   }
-
- 
+  .service-main-section-text {
+    width: 85%;
+  }
+  .logo-image {
+    width: 42px;
+  }
+  .service-box {
+    width: 91%;
+  }
+  .content {
+    padding: 0px 19px;
+  }
+}

@@ -1,10 +1,28 @@
+.about-sec {
+  /* {backgroundColor:'#2A2A2A', color:'white' , padding: '51px 27px', height:'606px'}}  */
+  background-color: #2a2a2a;
+  color: white;
+  padding: 51px 27px;
+  height: 606px;
+}
+.custom-margin-p {
+  margin: 42px 0px;
+}
+.video-link {
+  height: 500px;
+}
+.online-estimate-btn {
+  display: flex;
+  padding: 29px 0px;
+  justify-content: center;
+}
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-   .about-sec{
+  .about-sec {
     text-align: center;
-   }
-     }
+  }
+}
 @media only screen and (max-width: 767px) {
-    .about-sec{
-        text-align: center;
-       }
+  .about-sec {
+    text-align: center;
+  }
 }

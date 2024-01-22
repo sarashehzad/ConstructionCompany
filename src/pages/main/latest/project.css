@@ -1,15 +1,28 @@
+.custom-h2 {
+  text-align: center;
+  font-weight: bold;
+  margin: 36px;
+}
+.imageCards-section {
+  justify-content: center;
+}
+.view-all-btn {
+  display: flex;
+  margin: 32px;
+  justify-content: center;
+}
 @media only screen and (min-width: 768px) and (max-width: 992px) {
-   .latest-project{
+  .latest-project {
     display: flex;
     justify-content: center;
     margin-bottom: 22px;
-   }
-    }
+  }
+}
 
-    @media only screen and (max-width: 767px) {
-        .latest-project{
-            display: flex;
-            justify-content: center;
-            margin-bottom: 22px;
-           }
-    }
+@media only screen and (max-width: 767px) {
+  .latest-project {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 22px;
+  }
+}

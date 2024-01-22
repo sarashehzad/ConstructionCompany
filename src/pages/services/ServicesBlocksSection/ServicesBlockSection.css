@@ -1,0 +1,32 @@
+.services-block-section {
+  justify-content: end;
+}
+.block-bg {
+  background-color: #f7f7f7;
+}
+.services-block-section-2 {
+  justify-content: center;
+}
+.services-block-section-3 {
+  justify-content: start;
+}
+.main-list {
+  margin-bottom: 52px;
+}
+.list-p {
+  padding: 2px 5px;
+}
+.m-100 {
+  margin: 0px 100px;
+}
+.custom-black-bg {
+  background-color: #2a2a2a;
+  color: white;
+  padding: 26px;
+  text-align: center;
+}
+.custom-yellow-bg {
+  background-color: #ffb400;
+  padding: 26px;
+  text-align: center;
+}

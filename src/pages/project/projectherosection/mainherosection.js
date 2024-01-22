@@ -32,8 +32,10 @@ return(
 
 <div className="project-img">
 <div className="project-main-section-text">
-<h1 className="vectorr" style={{ fontWeight: "bold" }}>Monarch HQ Project</h1>
-<p style={{margin:'20px 0px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis <br/> egestas pellentesque libero dolor in diam consequat ut.  </p>
+<h1 className="vectorr">Monarch HQ Project</h1>
+<p className="custom-paragrapgh-margin"
+// style={{margin:'20px 0px'}}
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut quis <br/> egestas pellentesque libero dolor in diam consequat ut.  </p>
 
 
 </div>
